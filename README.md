@@ -1,9 +1,9 @@
 # Dashboard-kualitas-udara-jakarta
-
-index.html  rangka halaman, memuat berkas lain
-style.css   tampilan
-data.js     data hasil notebook (otomatis, tidak perlu diubah)
-insights.js interpretasi bisnis dan tindakan tiap tab
-config.js   warna, nama, dan state kontrol
-charts.js   fungsi penggambar grafik dan komponen
-app.js      logika tiap tab
+Penjelasan tiap file
+##### index.html untuk rangka halaman, memuat berkas lain
+##### style.css untuk tampilan
+##### data.js untuk data hasil notebook 
+##### insights.js untuk interpretasi bisnis dan tindakan tiap tab
+##### config.js untuk warna, nama, dan state kontrol
+##### charts.js untuk fungsi penggambar grafik dan komponen
+##### app.js untuk logika tiap tab
