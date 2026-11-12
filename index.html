@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Dashboard Kualitas Udara Jakarta (ISPU)</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Kualitas Udara Jakarta: Kondisi, Prediksi, Pemantauan, dan Hubungan Antarpolutan</h1>
+      <p>Data ISPU DKI Jakarta, 5 stasiun, 1 Januari 2024 sampai 30 November 2025. Nilai polutan adalah sub-indeks ISPU.</p>
+    </header>
+    <nav role="tablist" id="nav"></nav>
+    <main id="main"></main>
+    <!-- urutan muat penting: data, isian sendiri, konfigurasi, grafik, logika tab -->
+    <script src="data.js"></script>
+    <script src="insights.js"></script>
+    <script src="config.js"></script>
+    <script src="charts.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
